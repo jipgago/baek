@@ -1,10 +1,10 @@
 # [level 5] 문자열의 아름다움 - 68938 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/68938?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/68938?language=java) 
 
 ### 성능 요약
 
-메모리: 10.5 MB, 시간: 7.02 ms
+메모리: 83.9 MB, 시간: 21.90 ms
 
 ### 구분
 
