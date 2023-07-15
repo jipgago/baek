@@ -7,10 +7,26 @@ class Main{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         StringBuilder sb = new StringBuilder();
-        int[] arr = new int[3];
-        for(int i =0; i < 3; i++)arr[i] = Integer.parseInt(st.nextToken());
-        Arrays.sort(arr);
-        for(int i =0; i < 3; i++) sb.append(String.valueOf(arr[i])).append(" ");
+        int n1, n2, n3, temp;
+        n1 = Integer.parseInt(st.nextToken());
+        n2 = Integer.parseInt(st.nextToken());
+        n3 = Integer.parseInt(st.nextToken());
+        if (n1 > n2) {
+            temp = n1;
+            n1 = n2;
+            n2 = temp;
+        }
+        if (n2 > n3) {
+            temp = n2;
+            n2 = n3;
+            n3 = temp;
+        }
+        if (n1 > n2) {
+            temp = n1;
+            n1 = n2;
+            n2 = temp;
+        }
+        sb.append(n1).append(" ").append(n2).append(" ").append(n3);
         System.out.print(sb.toString());
     }
 }
