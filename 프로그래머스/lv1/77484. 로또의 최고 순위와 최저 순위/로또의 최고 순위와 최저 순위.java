@@ -14,8 +14,6 @@ class Solution {
         
         int maxRank = count + zerocnt;
         int minRank = count;
-        System.out.println(maxRank);
-        System.out.println(minRank);
         
         answer[0] = calNum(maxRank);
         answer[1] = calNum(minRank);
